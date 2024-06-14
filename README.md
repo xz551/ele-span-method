@@ -1,12 +1,24 @@
 # element-push 行合并通用方法
 依赖 element-ui typescript 
 # 使用方法
-npm i ele-span-method
 
+```node
+npm i ele-span-method
+```
+
+```javascript
 import { eleSpanMethod } from 'ele-span-method'
+
+```
+
+```html
 
 <el-table :data="data" :span-method="eleSpanMethod(data,['id','name'],['name'])">
 </el-table>
+
+
+```
+
 
 # 参数说明
 <T extends object,K extends keyof T>(list:T[],primaryKey:K[],mergeKey?:K[]) => {}
@@ -17,6 +29,8 @@ import { eleSpanMethod } from 'ele-span-method'
 
 list可以是不需要经过排序，任意顺序的，指定了 primaryKey 的字段，会经过分组排序
 例如
+```javascript
+
 
 [
     {
@@ -56,9 +70,12 @@ list可以是不需要经过排序，任意顺序的，指定了 primaryKey 的�
     }
 ]
 
+```
 primaryKey 参数为 ['id','name']
 数据会经过整理，整理后变为
 
+```javascript
+
 [
     {
         id:'1',
@@ -97,5 +114,6 @@ primaryKey 参数为 ['id','name']
     }
 ]
 
+```
 mergeKey，可以设置数据对应的列，不填写则按照 primaryKey 的字段合并
 
