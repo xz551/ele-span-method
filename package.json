@@ -1,0 +1,29 @@
+{
+  "name": "ele-span-method",
+  "keywords": [
+    "element-plus","typescript","el-table","span-method"
+  ],
+  "version": "1.0.2",
+  "type": "module",
+  "author": "zhangzhigang 395261209",
+  "types": "index.d.ts",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && npm update element-plus && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+
+  }
+}
