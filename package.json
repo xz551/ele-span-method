@@ -1,11 +1,12 @@
 {
   "name": "ele-span-method",
+  "homepage": "https://github.com/xz551/ele-span-method",
   "keywords": [
     "element-plus","typescript","el-table","span-method"
   ],
-  "version": "1.0.3",
+  "version": "1.0.5",
   "type": "module",
-  "author": "zhangzhigang 395261209",
+  "author": "zhangzhigang qq 395261209",
   "types": "index.d.ts",
   "main": "index.js",
   "scripts": {

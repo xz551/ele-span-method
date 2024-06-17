@@ -31,43 +31,12 @@ list可以是不需要经过排序，任意顺序的，指定了 primaryKey 的�
 例如
 ```javascript
 
-
 [
-    {
-        id:'1',
-        name:'A1',
-        age:10
-    },
-    {
-        id:'2',
-        name:'A2',
-        age:20
-    },
-    {
-        id:'1',
-        name:'A3',
-        age:30
-    },
-    {
-        id:'4',
-        name:'A4',
-        age:40
-    },
-    {
-        id:'1',
-        name:'A1',
-        age:50
-    },
-    {
-        id:'6',
-        name:'A6',
-        age:60
-    },
-    {
-        id:'7',
-        name:'A7',
-        age:70
-    }
+    {id:'1',name:'A1',age:10},
+    {id:'2',name:'A2',age:20},
+    {id:'1',name:'A3',age:30},
+    {id:'4',name:'A4',age:40},
+    {id:'1',name:'A1',age:50},
 ]
 
 ```
@@ -75,45 +44,20 @@ primaryKey 参数为 ['id','name']
 数据会经过整理，整理后变为
 
 ```javascript
-
-[
-    {
-        id:'1',
-        name:'A1',
-        age:10
-    },
-    {
-        id:'1',
-        name:'A1',
-        age:50
-    },
-    {
-        id:'1',
-        name:'A3',
-        age:30
-    },
-    {
-        id:'2',
-        name:'A2',
-        age:20
-    },
-    {
-        id:'4',
-        name:'A4',
-        age:40
-    },
-    {
-        id:'6',
-        name:'A6',
-        age:60
-    },
-    {
-        id:'7',
-        name:'A7',
-        age:70
-    }
+ [
+    {id:'1',name:'A1',age:10},
+    {id:'1',name:'A1',age:50},
+    {id:'1',name:'A3',age:30},
+    {id:'2',name:'A2',age:20},
+    {id:'4',name:'A4',age:40},
 ]
 
 ```
 mergeKey，可以设置数据对应的列，不填写则按照 primaryKey 的字段合并
 
+
+![](D:\Project\zzg\useElSpanMethod\1.png)
+
+![](D:\Project\zzg\useElSpanMethod\2.png)
+
+![](D:\Project\zzg\useElSpanMethod\3.png)
