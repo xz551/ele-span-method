@@ -58,7 +58,7 @@ mergeKey，可以设置数据对应的列，不填写则按照 primaryKey 的字
 
 ![](./1.png)
 
-<img src="./1.png"/>
+<img src="1.png"/>
 
 ![](./2.png)
 
