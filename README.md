@@ -56,8 +56,8 @@ primaryKey 参数为 ['id','name']
 mergeKey，可以设置数据对应的列，不填写则按照 primaryKey 的字段合并
 
 
-![](D:\Project\zzg\useElSpanMethod\1.png)
+![](\1.png)
 
-![](D:\Project\zzg\useElSpanMethod\2.png)
+![](\2.png)
 
-![](D:\Project\zzg\useElSpanMethod\3.png)
+![](\3.png)
